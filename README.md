@@ -1,4 +1,4 @@
-# 4-FOODIES (PWA)
+# For-Foodies (PWA)
 
 ## Project Description
 
@@ -8,15 +8,15 @@ This application is tailored for personal use. It is intended for those who are 
 
 ## Table of Content
 
-1. [Project Description](https://github.com/Brondchux/hw8-team-profile-generator#project-description)
-2. [Author Info](https://github.com/Brondchux/hw8-team-profile-generator#author-info)
-3. [User Story](https://github.com/Brondchux/hw8-team-profile-generator#user-story)
-4. [Acceptance Criteria](https://github.com/Brondchux/hw8-team-profile-generator#acceptance-criteria)
-5. [Mock-Up Preview](https://github.com/Brondchux/hw8-team-profile-generator#mock-up-preview)
-6. [Useful Links](https://github.com/Brondchux/hw8-team-profile-generator#useful-links)
-7. [Tech Stack](https://github.com/Brondchux/hw8-team-profile-generator#tech-stack)
-8. [Credits](https://github.com/Brondchux/hw8-team-profile-generator#credits)
-9. [License](https://github.com/Brondchux/hw8-team-profile-generator#license)
+1. [Project Description](https://github.com/Brondchux/for-foodies#project-description)
+2. [Author Info](https://github.com/Brondchux/for-foodies#author-info)
+3. [User Story](https://github.com/Brondchux/for-foodies#user-story)
+4. [Acceptance Criteria](https://github.com/Brondchux/for-foodies#acceptance-criteria)
+5. [Mock-Up Preview](https://github.com/Brondchux/for-foodies#mock-up-preview)
+6. [Useful Links](https://github.com/Brondchux/for-foodies#useful-links)
+7. [Tech Stack](https://github.com/Brondchux/for-foodies#tech-stack)
+8. [Credits](https://github.com/Brondchux/for-foodies#credits)
+9. [License](https://github.com/Brondchux/for-foodies#license)
 
 ---
 
@@ -77,19 +77,18 @@ The completed application should look similar in appearance to the image below:
 
 ## Useful Links
 
-1. 🗂 [Click me to view github repository for this project](https://github.com/Brondchux/hw8-team-profile-generator/)
-2. 🌍 [Click me to view deployed application on github pages](https://brondchux.github.io/hw8-team-profile-generator/)
-3. 📺 [Click me to watch the Jest test results via screencastify](https://watch.screencastify.com/v/tLMk4xUYg77v8o9IxlEr/)
+1. 🗂 [Click me to view github repository for this project](https://github.com/Brondchux/for-foodies/)
+2. 🌍 [Click me to view deployed application via heroku](https://brondchux.github.io/hw8-team-profile-generator/)
 
 ---
 
 ## Tech Stack
 
-![nodejs logo](./assets/images/techs/nodejs.png)
-![npm logo](./assets/images/techs/npm.png)
-![html5 logo](./assets/images/techs/html5.png)
-![css3 logo](./assets/images/techs/css3.png)
-![github logo](./assets/images/techs/github.png)
+![github logo](./src/assets/images/techs/github.png)
+![javascript logo](./src/assets/images/techs/javascript.png)
+![react logo](./src/assets/images/techs/reactjs.png)
+![html5 logo](./src/assets/images/techs/html5.png)
+![nodejs logo](./src/assets/images/techs/nodejs.png)
 
 ---
 
