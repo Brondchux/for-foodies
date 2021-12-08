@@ -1,4 +1,4 @@
-# FOR FOODIES - (PWA APP)
+# 4-FOODIES (PWA)
 
 ## Project Description
 
