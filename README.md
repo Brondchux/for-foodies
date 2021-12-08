@@ -1,4 +1,4 @@
-# For-Foodies (PWA)
+# FOR-FOODIES (PWA)
 
 ## Project Description
 
