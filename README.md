@@ -77,7 +77,7 @@ The completed application should look similar in appearance to the image below:
 ## Useful Links
 
 1. 🗂 [Click me to view github repository for this project](https://github.com/Brondchux/for-foodies/)
-2. 🌍 [Click me to view deployed application via heroku](https://brondchux.github.io/hw8-team-profile-generator/)
+2. 🌍 [Click me to view deployed application via heroku](https://for-foodies.herokuapp.com/)
 
 ---
 
