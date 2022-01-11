@@ -4,7 +4,7 @@ import Navbar from "../Navbar";
 const Header = () => {
 	return (
 		<Segment>
-			<Grid container stackable columns={2}>
+			<Grid container stackable doubling columns={2}>
 				<Grid.Column>
 					<Logo></Logo>
 				</Grid.Column>

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu } from "semantic-ui-react";
+import { Icon, Menu } from "semantic-ui-react";
 
 const Navbar = () => {
 	const [activePage, setActivePage] = useState("home");
@@ -7,22 +7,39 @@ const Navbar = () => {
 	const handleItemClick = (e, { name }) => setActivePage(name);
 
 	return (
-		<Menu pointing>
+		<Menu fluid widths={4} pointing stackable>
 			<Menu.Item
 				name="home"
 				active={activePage === "home"}
 				onClick={handleItemClick}
-			/>
+			>
+				<Icon name="user" />
+				Foodie
+			</Menu.Item>
 			<Menu.Item
-				name="messages"
-				active={activePage === "messages"}
+				name="newFood"
+				active={activePage === "newFood"}
 				onClick={handleItemClick}
-			/>
+			>
+				<Icon name="food" />
+				New Food
+			</Menu.Item>
 			<Menu.Item
-				name="friends"
-				active={activePage === "friends"}
+				name="savedFoods"
+				active={activePage === "savedFoods"}
 				onClick={handleItemClick}
-			/>
+			>
+				<Icon name="list" />
+				Saved Foods
+			</Menu.Item>
+			<Menu.Item
+				name="foodLogs"
+				active={activePage === "foodLogs"}
+				onClick={handleItemClick}
+			>
+				<Icon name="calendar alternate" />
+				Food Logs
+			</Menu.Item>
 		</Menu>
 	);
 };
