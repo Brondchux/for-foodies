@@ -1,5 +1,7 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { Icon, Menu } from "semantic-ui-react";
+import "./navbar.css";
 
 const Navbar = () => {
 	const [activePage, setActivePage] = useState("home");
@@ -12,33 +14,45 @@ const Navbar = () => {
 				name="home"
 				active={activePage === "home"}
 				onClick={handleItemClick}
+				as="div"
 			>
-				<Icon name="user" />
-				Foodie
+				<Link to="/">
+					<Icon name="user" />
+					Foodie
+				</Link>
 			</Menu.Item>
 			<Menu.Item
 				name="newFood"
 				active={activePage === "newFood"}
 				onClick={handleItemClick}
+				as="div"
 			>
-				<Icon name="food" />
-				New Food
+				<Link to="/new-food">
+					<Icon name="food" />
+					New Food
+				</Link>
 			</Menu.Item>
 			<Menu.Item
 				name="savedFoods"
 				active={activePage === "savedFoods"}
 				onClick={handleItemClick}
+				as="div"
 			>
-				<Icon name="list" />
-				Saved Foods
+				<Link to="/saved-foods">
+					<Icon name="list" />
+					Saved Foods
+				</Link>
 			</Menu.Item>
 			<Menu.Item
 				name="foodLogs"
 				active={activePage === "foodLogs"}
 				onClick={handleItemClick}
+				as="div"
 			>
-				<Icon name="calendar alternate" />
-				Food Logs
+				<Link to="/food-logs">
+					<Icon name="calendar alternate" />
+					Food Logs
+				</Link>
 			</Menu.Item>
 		</Menu>
 	);
