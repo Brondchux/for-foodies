@@ -1,5 +1,7 @@
+import Clock from "../components/Clock";
+
 const Home = () => {
-	return <h2>Foodie Home!</h2>;
+	return <Clock />;
 };
 
 export default Home;
