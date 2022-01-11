@@ -9,7 +9,7 @@ const Clock = () => {
 		setCurrentTime(Date.now());
 	}, 1000);
 
-	return <h2>{moment(currentTime).format("MMMM Do YYYY, h:mm:ss a")}</h2>;
+	return moment(currentTime).format("MMM Do YYYY, h:mm:ss A");
 };
 
 export default Clock;
