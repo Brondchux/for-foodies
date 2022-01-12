@@ -6,7 +6,7 @@ const Tray = () => {
 		"https://react.semantic-ui.com/images/wireframe/square-image.png";
 	return (
 		<Segment as="section" piled secondary padded>
-			<Grid columns="equal" divided stackable>
+			<Grid verticalAlign="middle" columns={3} centered divided>
 				<Grid.Row>
 					<Grid.Column>
 						<Image src={semanticImageUrl} fluid circular />
