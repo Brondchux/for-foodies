@@ -6,6 +6,7 @@ import NewFood from "./pages/NewFood";
 import SavedFoods from "./pages/SavedFoods";
 import FoodLogs from "./pages/FoodLogs";
 import { Container } from "semantic-ui-react";
+import Footer from "./components/Footer";
 
 function App() {
 	return (
@@ -13,7 +14,6 @@ function App() {
 			<BrowserRouter>
 				{/* header section */}
 				<Header></Header>
-
 				{/* main section */}
 				<Container textAlign="center">
 					<Routes>
@@ -23,8 +23,9 @@ function App() {
 						<Route exact path="/food-logs" element={<FoodLogs />} />
 					</Routes>
 				</Container>
-
 				{/* footer section */}
+				<Footer></Footer>
+				{/* https://www.youtube.com/watch?v=ScT4ElKd6eo */}
 			</BrowserRouter>
 		</div>
 	);
